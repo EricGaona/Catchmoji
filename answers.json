@@ -1,0 +1,53 @@
+[
+    {
+      "question-number": 1,
+      "image": "example1.png",
+      "answer": ["Like", "a", "duck", "to", "water"]
+    },
+    {
+      "question-number": 2,
+      "image": "example2.png",
+      "answer": ["It's", "not", "rocket", "science"]
+    }
+    {
+      "question-number": 3,
+      "image": "example3.png",
+      "answer": ["Time", "flies", "when", "you're", "having", "fun"]
+    }
+    {
+      "question-number": 4,
+      "image": "example4.png",
+      "answer": ["An", "eye", "for", "an", "eye", "a", "tooth", "for", "a", "tooth"]
+    }
+    {
+      "question-number": 5,
+      "image": "example5.png",
+      "answer": ["Costs", "an", "arm", "and", "a", "leg"]
+    }
+    {
+      "question-number": 6
+      "image": "example6.png",
+      "answer": ["Don't", "count", "your", "chickens", "before", "they", "hatch"]
+    }
+    {
+      "question-number": 7,
+      "image": "example7.png",
+      "answer": ["It's", "raining", "cats", "and", "dogs"]
+    }
+    {
+      "question-number": 8,
+      "image": "example8.png",
+      "answer": ["Don't", "burn", "your", "bridges"]
+    }
+    {
+      "question-number": 9,
+      "image": "example9.png",
+      "answer": ["Don't", "put", "all", "of", "your", "eggs", "in", "one", "basket"]
+    }
+    {
+      "question-number": 10,
+      "image": "example10.png",
+      "answer": ["Bigger", "fish", "to", "fry"]
+    }
+  ]
+  
