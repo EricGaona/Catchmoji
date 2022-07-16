@@ -13,7 +13,7 @@
     * [Exisiting Features](#existing-features)
     * [Future Features](#future-features)
 * [Design](#design) 
-    * [Wireframes](#wireframes)
+    * [Wireframe](#wireframe)
     * [Typography](#typography)
     * [Images](#images)
     * [Colour Scheme](#colour-scheme)
@@ -67,10 +67,15 @@ When planning our project, there were a number of features we wanted to implemen
 
 ## Design
 For this project, design began once we had a rough idea of what kind of game we wanted to create. Once we decided how we were going to implement it, we then designed the site around the game. 
-### Wireframes
-### Typography
-### Images
-### Colour Scheme
+- ### Wireframe
+<img src="assets/images/wireframe.png" alt="Screenshot of wireframe for project">
+This was the basic structure and layout of our website when we were first designing it. This does not represent the final product as things changed during development, however it has been updated as we planned.
+<br>
+<br>
+
+- ### Typography
+- ### Images
+- ### Colour Scheme
 
 ## Testing
 ### Validator Testing
