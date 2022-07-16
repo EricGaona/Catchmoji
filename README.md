@@ -45,7 +45,11 @@ We used Bootstrap for our project to create the index.html file and create a gre
  <br>
  <a href="https://fonts.google.com/"><img src="assets/images/google-fonts.png" alt="Google Fonts logo" width="10%"></a>
  Google Fonts is a computer font and web font service owned by Google. We used it to import some fonts that we wanted to use on our website to make it look more visually appealing.
+ <br>
+ <a href="https://balsamiq.com/"><img src="assets/images/balsamiq.png" alt="Balsamiq logo" width="10%"></a>
+ Balsamiq is a wireframes tool used to construct basic mock ups. We used this to help form our ideas for the design of the site and as a reference.
  <hr>
+
 
 ## Features
 When planning our project, there were a number of features we wanted to implement. Due to time constraints we could not achieve them all. Below we have laid out what we have and haven't achieved.
