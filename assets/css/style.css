@@ -15,8 +15,6 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: white;
-    z-index: 1000;
 }
 
 .small-box {
@@ -36,25 +34,10 @@ img {
     background-color: #89CFF0;
 }
 
-.webgl {
-    z-index: -auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-}
-
 canvas {
-    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-}
-
-div {
-    z-index: 1000;
-    background-color: white;
 }
