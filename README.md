@@ -42,13 +42,27 @@ We used Bootstrap for our project to create the index.html file and create a gre
 <br>
  <a href="https://www.javascript.com/"><img src="assets/images/js.png" alt="Javascript logo" width="9%"></a>
  Javascript is used by programmers across the world to create dynamic and interactive web content like applications and browsers. We used Javascript to create our questions and answers on the website.
+ <br>
+ <a href="https://fonts.google.com/"><img src="assets/images/google-fonts.png" alt="Google Fonts logo" width="10%"></a>
+ Google Fonts is a computer font and web font service owned by Google. We used it to import some fonts that we wanted to use on our website to make it look more visually appealing.
  <hr>
 
 ## Features
-### Existing Features
-### Future Features
+When planning our project, there were a number of features we wanted to implement. Due to time constraints we could not achieve them all. Below we have laid out what we have and haven't achieved.
+* ### Existing Features
+    - #### Catchmoji Game
+    The Catchmoji game is a simple guessing game. Each set of emojis represent a catch phrase or well known saying. For each set of emojis, the player is given multiple options to choose from and must choose the correct answer to win.
+    - #### Footer 
+    The footer includes copyright text and links to social media. 
+
+* ### Future Features
+    - #### Drag and Drop
+    Initially we wanted to use a drag and drop feature in the Catchmoji game, however since it would take a longer time we decided to go with the simplier method of multiple choice. Drag and drop is something that could be implemented later on.
+<br>    
+<hr>
 
 ## Design
+For this project, design began once we had a rough idea of what kind of game we wanted to create. Once we decided how we were going to implement it, we then designed the site around the game. 
 ### Wireframes
 ### Typography
 ### Images
