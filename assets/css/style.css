@@ -82,7 +82,9 @@ canvas {
     height: 100vh;
 }
 
+
 div {
     z-index: 1000;
     background-color: white;
 }
+
