@@ -5,7 +5,6 @@
 
 body {
     height: 97vh;
-    overflow: hidden;
     width: 80vw;
     align-content: center;
     margin: auto 0;
@@ -30,7 +29,6 @@ img {
     margin: 0;
     padding: 0;
 }
-
 
 section {
     display: flex;
