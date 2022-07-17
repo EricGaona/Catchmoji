@@ -79,3 +79,19 @@ div {
     background-color: white;
 }
 
+#answer
+{
+    text-decoration: none;
+    color: transparent;
+    text-align: center;
+}
+
+#answer:hover
+{
+    color: black;
+}
+
+#welcome
+{
+    text-align: center;
+}
