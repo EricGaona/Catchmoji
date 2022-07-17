@@ -31,13 +31,6 @@ img {
     padding: 0;
 }
 
-body {
-    height: 97vh;
-    overflow: hidden;
-    width: 80vw;
-    align-content: center;
-    margin: auto 0;
-}
 
 section {
     display: flex;
@@ -88,3 +81,19 @@ div {
     background-color: white;
 }
 
+#answer
+{
+    text-decoration: none;
+    color: transparent;
+    text-align: center;
+}
+
+#answer:hover
+{
+    color: black;
+}
+
+#welcome
+{
+    text-align: center;
+}
