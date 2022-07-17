@@ -41,14 +41,52 @@ var questions = [
                 "image": "assets/images/fish-fry.png"}
                 ];
 
-
+var score=0, success=0, fail=0;  
+var respuestaElegida='';           
 function displayQuestion(jsonPreguntas){
-    var datos = jsonPreguntas[0]; 
+    var datos = jsonPreguntas[2]; 
 	document.getElementById('answer1').innerText=datos['answer'][0];
 	document.getElementById('answer2').innerText=datos['answer'][1];
 	document.getElementById('answer3').innerText=datos['answer'][2];
     document.getElementById('IMG').src=datos['image'];
-	respuestaCorrecta=datos['Correcta'];
+	rightAnswer=datos['right'];
 }
- displayQuestion(questions);
-  
+
+function todoABlanco(){
+	if(document.getElementsByClassName('respuestaElegida').length>0){
+	document.getElementsByClassName('respuestaElegida')[0].
+	setAttribute('class','answer');	
+	}//cierre del if
+	}
+
+  displayQuestion(questions);
+
+  window.onload=function(){
+    lasRespuestas=document.getElementsByClassName('answer');
+	for(i=0;i<lasRespuestas.length;i++){
+	lasRespuestas[i].addEventListener('click', function(){
+	//alert('click en '+this.innerText);
+	todoABlanco();//llamada
+	this.setAttribute('class','respuestaElegida');
+	
+	respuestaElegida=this.innerText;
+	});
+	}
+     document.getElementById("btnNext").addEventListener('click', function(){
+        if(respuestaElegida==''){
+            alert('Please, select answer');
+            }//cierre de if
+            else{
+            if(respuestaElegida==rightAnswer){
+                success++;
+            alert('Success!!');
+            score=score+100;
+            }else{
+                fail++;
+            alert('fail!!');	
+            }
+        }
+       
+    });
+   
+ }
