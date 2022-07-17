@@ -40,9 +40,6 @@ Welcome to the README for Catchmoji! Catchmoji is a website created for the July
  Bootstrap is a free, open-source CSS framework directed at responsive, mobile-first, front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
 We used Bootstrap for our project to create the index.html file and create a great user experience.
 <br>
- <a href="https://www.javascript.com/"><img src="assets/images/js.png" alt="Javascript logo" width="9%"></a>
- Javascript is used by programmers across the world to create dynamic and interactive web content like applications and browsers. We used Javascript to create our questions and answers on the website.
- <br>
  <a href="https://fonts.google.com/"><img src="assets/images/google-fonts.png" alt="Google Fonts logo" width="10%"></a>
  Google Fonts is a computer font and web font service owned by Google. We used it to import some fonts that we wanted to use on our website to make it look more visually appealing.
  <br>
@@ -55,13 +52,15 @@ We used Bootstrap for our project to create the index.html file and create a gre
 When planning our project, there were a number of features we wanted to implement. Due to time constraints we could not achieve them all. Below we have laid out what we have and haven't achieved.
 * ### Existing Features
     - #### Catchmoji Game
-    The Catchmoji game is a simple guessing game. Each set of emojis represent a catch phrase or well known saying. For each set of emojis, the player is given multiple options to choose from and must choose the correct answer to win.
+    The Catchmoji game is a simple guessing game. Each set of emojis represent a catch phrase or well known saying. For each set of emojis, the answer is hidden below and can be viewed by hovering over the space.
     - #### Footer 
-    The footer includes copyright text and links to social media. 
+    The footer includes copyright text and links to the team's github profiles. 
 
 * ### Future Features
     - #### Drag and Drop
     Initially we wanted to use a drag and drop feature in the Catchmoji game, however since it would take a longer time we decided to go with the simplier method of multiple choice. Drag and drop is something that could be implemented later on.
+    - #### JavaScript Game
+    We also originally intended on making the game with Javascript, however we encountered a bug which is detailed in <a href="#bugs">bugs</a>. Due to this issue we were set back time and once it was resolved, we ran out of time to finish the coding. As a back up, we had a basic HTML page built in case an issue like this arose. 
 <br>    
 <hr>
 
@@ -69,8 +68,10 @@ When planning our project, there were a number of features we wanted to implemen
 For this project, design began once we had a rough idea of what kind of game we wanted to create. Once we decided how we were going to implement it, we then designed the site around the game. 
 - ### Wireframe
 <img src="assets/images/wireframe.png" alt="Screenshot of wireframe for project">
-This was the basic structure and layout of our website when we were first designing it. This does not represent the final product as things changed during development, however it has been updated as we planned.
+This was the basic structure and layout of our website when we were first designing it. This does not represent the final product as things changed during development, however it has been updated as we planned. This wireframe is what we intended the site to look like if it had been built with javascript.
 <br>
+<img src="assets/images/wireframe2.png" alt="Screenshot of second wireframe for project">
+This is the wireframe we did for the back-up site without javascript. Like our other wireframe, design changed as we developed the site.
 <br>
 
 - ### Typography
