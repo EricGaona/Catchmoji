@@ -30,14 +30,6 @@ img {
     padding: 0;
 }
 
-body {
-    height: 97vh;
-    /* overflow: hidden; */
-    width: 80vw;
-    align-content: center;
-    margin: auto 0;
-}
-
 section {
     display: flex;
     flex-wrap: wrap;
