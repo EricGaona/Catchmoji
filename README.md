@@ -3,6 +3,8 @@
 
 # Team: Smiley Squad
 
+<img src="assets/images/project-screenshot.png">
+
 # Table of Contents
 <details>
 <summary>Table of Contents</summary>
@@ -13,20 +15,21 @@
     * [Exisiting Features](#existing-features)
     * [Future Features](#future-features)
 * [Design](#design) 
+    * [User Stories](#user-stories)
     * [Wireframe](#wireframe)
     * [Typography](#typography)
     * [Images](#images)
     * [Colour Scheme](#colour-scheme)
 * [Testing](#testing)
     * [Validator Testing](#validator-testing)
-    * [Bugs](#bugs)
-* [Deployment](#deployment)  
+    * [Bugs](#bugs)  
 * [Credits](#credits)  
 </details>
 <hr>
 
+[View the live project here.]()
 ## Introduction
-Welcome to the README for Catchmoji! Catchmoji is a website created for the July Hackathon with the Code Institute. It was build, designed and deployed by Team Smiley Squad. Smiley Squad consists of Eric Gaona, Vanessa Anna-Maria Andersson, Keith Millar, Oluwaseyi Badero, Nico Brown, Grace McKenna and Rebecca Marriott. 
+Welcome to the README for Catchmoji! Catchmoji is a website created for the July Hackathon with the Code Institute. It was built, designed and deployed by Team Smiley Squad. Smiley Squad consists of Eric Gaona, Vanessa Anna-Maria Andersson, Keith Millar, Oluwaseyi Badero, Nico Brown, Grace McKenna and Rebecca Marriott. 
 <hr>
 
 ## Technologies Used
@@ -66,6 +69,10 @@ When planning our project, there were a number of features we wanted to implemen
 
 ## Design
 For this project, design began once we had a rough idea of what kind of game we wanted to create. Once we decided how we were going to implement it, we then designed the site around the game. 
+
+- ### User Stories 
+    - As a user I can play the game as soon as I enter the home page so that I get to celebrate National Emoji Day in a fun way.
+    
 - ### Wireframe
 <img src="assets/images/wireframe.png" alt="Screenshot of wireframe for project">
 This was the basic structure and layout of our website when we were first designing it. This does not represent the final product as things changed during development, however it has been updated as we planned. This wireframe is what we intended the site to look like if it had been built with javascript.
@@ -75,13 +82,26 @@ This is the wireframe we did for the back-up site without javascript. Like our o
 <br>
 
 - ### Typography
+We used a Google Font for this project and the one we chose was Kavoon, with an alternative of serif. We chose this font because we felt it went well with the cartoony style of the emojis.
 - ### Images
+We felt that using a responsive background that included emojis and a bright constrasting colour to the text and text background would help gain a user's attention. The background is using Three.js to generate some emoji particles and move the scene following the mouse movements. 
+We also used an image with emojis on it as a banner, giving the user a clear idea what our webpage is about.
 - ### Colour Scheme
+<img src="assets/images/colour-scheme.png">
 
 ## Testing
 ### Validator Testing
-### Bugs
+W3C Validator for HTML: Passed
+<br>
+W3C Validator for CSS: Passed
 
-## Deployment
+### Bugs
+- When we were attempting to build the quiz with javascript, we encountered a bug where the submit button didn't seem to work. Due to team member availability, this bug wasn't resolved until the next day. The problem ended up being a canvas tag which covered the button, without having the correct CSS it blocked us from clicking the button. 
+<br>
+Due to the time constraints and loss of time to work, we were unable to complete the javascript programming. This is when we used our back-up plan of a more basic HTML site. 
+
+- When index.html was put through the validator, some duplicate uses of certain IDs were highlighted and a few unclosed tags. This was fixed before being run through the validator again. 
 
 ## Credits
+
+- sebastianwachter for his [EmojiDomain project](https://github.com/sebastianwachter/emoji-domain)

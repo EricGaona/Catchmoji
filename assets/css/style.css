@@ -80,19 +80,19 @@ div {
     z-index: 1000;
 }
 
-#answer {
+.title {
     z-index: 1000;
     text-decoration: none;
     color: transparent;
     text-align: center;
 }
 
-#answer:hover {
+.title:hover {
     z-index: 1000;
     color: black;
 }
 
-#welcome {
+.welcome {
     z-index: 1000;
     text-align: center;
 }
