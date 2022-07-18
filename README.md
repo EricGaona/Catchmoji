@@ -27,7 +27,7 @@
 </details>
 <hr>
 
-[View the live project here.]()
+[View the live project here.](https://ericgaona.github.io/Catchmoji/)
 ## Introduction
 Welcome to the README for Catchmoji! Catchmoji is a website created for the July Hackathon with the Code Institute. It was built, designed and deployed by Team Smiley Squad. Smiley Squad consists of Eric Gaona, Vanessa Anna-Maria Andersson, Keith Millar, Oluwaseyi Badero, Nico Brown, Grace McKenna and Rebecca Marriott. 
 <hr>
