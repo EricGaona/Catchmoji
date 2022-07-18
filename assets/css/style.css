@@ -4,6 +4,7 @@
 }
 
 body {
+    font-family: 'Kavoon', serif;
     height: 97vh;
     width: 85vw !important;
     overflow-x: hidden;
@@ -77,22 +78,21 @@ canvas {
 
 div {
     z-index: 1000;
-    background-color: white;
 }
 
-#answer {
+.title {
     z-index: 1000;
     text-decoration: none;
     color: transparent;
     text-align: center;
 }
 
-#answer:hover {
+.title:hover {
     z-index: 1000;
     color: black;
 }
 
-#welcome {
+.welcome {
     z-index: 1000;
     text-align: center;
 }
