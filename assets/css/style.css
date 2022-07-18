@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+.navh1 {
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
 body {
     font-family: 'Kavoon', serif;
     height: 97vh;
